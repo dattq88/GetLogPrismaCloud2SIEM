@@ -103,7 +103,7 @@ def get_incident_audit_events(from_time):
     print("Sleep from: " + change_time_z(current_time))
 
 ### HÀM XỬ LÝ
-user_API = "dat.mai @svtech.com.vn" # Ten user dung de goi API(Exept user nay de khong lay log goi API)
+user_API = "admin@admin.abcd" # Ten user dung de goi API(Exept user nay de khong lay log goi API)
 firsttime = True
 last_delta_time = get_incident_delta_time()
 def process():
